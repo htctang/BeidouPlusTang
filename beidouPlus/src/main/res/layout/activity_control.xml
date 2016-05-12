@@ -1,0 +1,139 @@
+<com.skyfishjy.library.MyWaterWaveFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ripple="http://schemas.android.com/apk/res/com.example.beidouplus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beidou_background" >
+
+
+    <com.example.beidouplus.myview.MySurfaceView
+        android:id="@+id/id_surfaceVeiwTest"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="100dp"
+        >
+    </com.example.beidouplus.myview.MySurfaceView>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center" >
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_forwardBtu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/centerEar"
+            android:layout_alignLeft="@id/centerEar"
+            android:background="@drawable/ic_expand_forwaord1"
+             />
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_downwardBtu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@id/centerEar"
+            android:layout_below="@id/centerEar"
+            android:background="@drawable/ic_expand_downforward1" />
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_leftBtu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@id/centerEar"
+            android:layout_toLeftOf="@id/centerEar"
+            android:background="@drawable/ic_chevron_left_black1" />
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_rightBtu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@id/centerEar"
+            android:layout_toRightOf="@id/centerEar"
+            android:background="@drawable/ic_chevron_right_black1" />
+
+        <TextView
+            android:id="@+id/centerEar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:text="" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_addLockBtu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="上锁"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            ripple:hover="true"
+            ripple:rippleColor="#ffffff" />
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_cancleLockBtu"
+             android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="解锁"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            ripple:hover="true"
+            ripple:rippleColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+       
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_takeOffBtu"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="一键起飞"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            ripple:hover="true"
+            ripple:rippleColor="#ffffff" />
+
+        <com.indris.material.RippleView
+            android:id="@+id/id_landingBtu"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="一键降落"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            ripple:hover="true"
+            ripple:rippleColor="#ffffff" />
+    </LinearLayout>
+	  <com.indris.material.RippleView
+	      android:layout_gravity="center_horizontal"
+	      android:layout_marginTop="20dp"
+            android:id="@+id/id_ultrasonicModeBt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="超声模式"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            ripple:hover="true"
+            ripple:rippleColor="#ffffff" />
+</com.skyfishjy.library.MyWaterWaveFrameLayout>

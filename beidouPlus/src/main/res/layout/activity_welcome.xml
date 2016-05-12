@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skyfishjy.library.MyWaterWaveFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="基于北斗卫星导航系统的自主巡线智能"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="无人机设计"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    
+
+    
+
+</com.skyfishjy.library.MyWaterWaveFrameLayout>

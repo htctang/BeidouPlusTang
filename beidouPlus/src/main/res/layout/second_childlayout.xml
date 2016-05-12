@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#2fd70d"
+    android:text="姿态数据"/>
+    <TextView
+        android:id="@+id/second_data1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2fd70d"
+        android:text="横滚:0.0"/>
+    <TextView
+        android:id="@+id/second_data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2fd70d"
+        android:text="俯仰:0.0"/>
+    <TextView
+        android:id="@+id/second_data3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2fd70d"
+        android:text="航向:0.0"/>
+</LinearLayout>

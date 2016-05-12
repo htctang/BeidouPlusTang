@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#f4592e"
+    android:text="控制数据"/>
+    <TextView
+        android:id="@+id/third_data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f4592e"
+        android:text="油门：1000"/>
+    <TextView
+        android:id="@+id/third_data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f4592e"
+        android:text="航向：1500"/>
+    <TextView
+        android:id="@+id/third_data3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f4592e"
+        android:text="横滚：1000"/>
+    <TextView
+        android:id="@+id/third_data4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f4592e"
+        android:text="俯仰：1000"/>
+</LinearLayout>

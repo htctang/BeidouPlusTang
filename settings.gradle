@@ -1,0 +1,7 @@
+include ':androidLib284'
+include ':bluetoothLib'
+include ':rajawailLib'
+include ':rippleLib'
+include ':rippleView'
+include ':library'
+include ':beidouPlus'
